@@ -1,0 +1,18 @@
+{
+    
+    "builds": [
+        {
+
+            "src":  "./indian-law_ai",
+            "use": "@vercel/next.js"
+        }
+    ],
+
+    "routes":[
+        {
+
+            "src":"/(.*)",
+            "dest": "/route.js"
+        }
+    ]
+}
